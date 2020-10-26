@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<router vendor = "Cisco">
+    <name>router1</name>
+    <interfaces>
+        <interface>
+            <name>Interface 0/0</name>
+        </interface>
+        <interface>
+            <name>interface 0/1</name>
+        </interface>
+
+    </interfaces>
+</router>

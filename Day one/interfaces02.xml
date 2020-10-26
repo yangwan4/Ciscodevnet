@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ins_api>
+  <type>cli_show</type>
+  <version>1.0</version>
+  <sid>eoc</sid>
+  <outputs>
+    <output>
+      <body>
+          <TABLE_intf>
+           <ROW_intf>
+            <vrf-name-out>default</vrf-name-out>
+            <intf-name>Lo1</intf-name>
+            <proto-state>up</proto-state>
+            <link-state>up</link-state>
+            <admin-state>up</admin-state>
+            <iod>5</iod>
+            <prefix>1.1.1.1</prefix>
+            <ip-disabled>FALSE</ip-disabled>
+           </ROW_intf>
+           <ROW_intf>
+            <vrf-name-out>default</vrf-name-out>
+            <intf-name>Lo2</intf-name>
+            <proto-state>up</proto-state>
+            <link-state>up</link-state>
+            <admin-state>up</admin-state>
+            <iod>6</iod>
+            <prefix>2.2.2.2</prefix>
+            <ip-disabled>FALSE</ip-disabled>
+           </ROW_intf>
+           <ROW_intf>
+            <vrf-name-out>default</vrf-name-out>
+            <intf-name>Lo3</intf-name>
+            <proto-state>up</proto-state>
+            <link-state>up</link-state>
+            <admin-state>up</admin-state>
+            <iod>7</iod>
+            <prefix>3.3.3.3</prefix>
+            <ip-disabled>FALSE</ip-disabled>
+           </ROW_intf>
+           <ROW_intf>
+            <vrf-name-out>default</vrf-name-out>
+            <intf-name>Eth1/2</intf-name>
+            <proto-state>down</proto-state>
+            <link-state>down</link-state>
+            <admin-state>down</admin-state>
+            <iod>9</iod>
+            <prefix>12.1.1.1</prefix>
+            <ip-disabled>FALSE</ip-disabled>
+           </ROW_intf>
+          </TABLE_intf>
+         </body>
+      <input>show ip inter b</input>
+      <msg>Success</msg>
+      <code>200</code>
+    </output>
+  </outputs>
+</ins_api>
